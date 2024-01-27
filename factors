@@ -27,7 +27,7 @@ def factorNumber(num):
     """ Calculates factor prime number """
     if num % 2 == 0:
         i = 2
-        print("{:d}={:d}*{:d}".format(num, int(num/i)), i)
+        print("{:d}={:d}*{:d}".format(num, int(num/i), i))
     else:
         fa = math.sqrt(num)
         if fa % 1 == 0:
