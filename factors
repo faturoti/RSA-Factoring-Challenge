@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+""" Gets two first prime factors of any number """
+
+from sys import argv, stderr
+import math
+
+
+if len(argv) != 2:
+	stderr.write("Usage: factors <file>\n")
+	exit(1)
+
+def checkPrime();
+	
