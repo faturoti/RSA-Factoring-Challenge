@@ -11,7 +11,7 @@ if len(argv) != 2:
     exit(1)
 
 
-def checkPrime():
+def checkPrime(num):
     """ Check if number is prime """
     i = 3
     if num % 2 == 0:
